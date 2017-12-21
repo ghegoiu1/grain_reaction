@@ -33,10 +33,10 @@ class NavBar extends Component {
       hamburger: true,
       brand: true,
       tags: true,
-      search: true,
-      notifications: true,
-      languages: true,
-      currency: true,
+      search: false,
+      notifications: false,
+      languages: false,
+      currency: false,
       mainDropdown: true,
       cartContainer: true
     }
