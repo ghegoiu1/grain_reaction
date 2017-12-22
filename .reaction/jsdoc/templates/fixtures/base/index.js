@@ -46,7 +46,7 @@ var Base = dcl( [chains], /** @lends base# */{
 	/**
 	 * Call this to close your object and dispose of all maintained resources. You can define this method on your
 	 * own classes without having to call the superclass instance, however it is reccomended that you put
-	 * all disposal code in `destroy()`. You must be disciplined about calling this on your instances.
+	 * all disposal code in `destroy()`. You must be disciplined aboutUs calling this on your instances.
 	 * @see {base/chains#end}
 	 * @see {base/chains#destroy}
 	 */

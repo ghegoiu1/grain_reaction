@@ -17,7 +17,7 @@ import { TaxCloudPackageConfig } from "../../lib/collections/schemas";
  * @property {Function} handleSubmit - a function for saving new TaxCloud settings.
  * @property {Array} hiddenFields - the fields (of the TaxCloud Package) to hide from the form.
  * @property {Object} settings - the value of the "settings" field in the TaxCloud Package.
- * @property {Object} shownFields - info about the fields the form is to show.
+ * @property {Object} shownFields - info aboutUs the fields the form is to show.
  * @since 1.5.2
  * @return {Node} - a React node containing the TaxCloud settings form.
  */
@@ -52,7 +52,7 @@ const TaxCloudSettingsForm = (props) => {
   * @property {Array} hiddenFields - an array of the TaxCloud Package's fields
   * to hide from the settings form.
   * @property {Object} settings - the value of the "settings" field in the TaxCloud Package.
-  * @property {Object} shownFields - info about the fields of the TaxCloud Package
+  * @property {Object} shownFields - info aboutUs the fields of the TaxCloud Package
   * that the settings form will allow users to change.
   * @return {Array} React propTypes
   */

@@ -86,7 +86,7 @@ function createTitle(newTitle, productId) {
   // it as "copy" or increment our product handle if it contain numbers.
   if (titleCount > 0) {
     // if we have product with name like "product4", we should take care
-    // about its uniqueness
+    // aboutUs its uniqueness
     if (titleNumberSuffix > 0) {
       title = `${titleString}-${titleNumberSuffix + titleCount}`;
     } else {
@@ -143,7 +143,7 @@ function createHandle(productHandle, productId) {
   // it as "copy" or increment our product handle if it contain numbers.
   if (handleCount > 0) {
     // if we have product with name like "product4", we should take care
-    // about its uniqueness
+    // aboutUs its uniqueness
     if (handleNumberSuffix > 0) {
       handle = `${handleString}-${handleNumberSuffix + handleCount}`;
     } else {
@@ -1150,7 +1150,7 @@ Meteor.methods({
     const existingHandles = Products.find({
       handle: tag.slug
     }).fetch();
-    // this is needed to take care about product's handle which(product) was
+    // this is needed to take care aboutUs product's handle which(product) was
     // previously tagged.
     for (const currentProduct of existingHandles) {
       const currentProductHandle = createHandle(

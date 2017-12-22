@@ -231,7 +231,7 @@ describe("Add/Create cart methods", function () {
         return cart.shopId;
       });
       spyOnMethod("copyCartToOrder", cart.userId);
-      // let's keep it simple. We don't want to see a long email about
+      // let's keep it simple. We don't want to see a long email aboutUs
       // success. But I leave it here in case if anyone want to check whole
       // method flow.
       const insertStub = sandbox.stub(Reaction.Collections.Orders, "insert");

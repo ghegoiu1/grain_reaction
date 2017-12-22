@@ -8,8 +8,8 @@ import { PaymentMethod } from "/lib/collections/schemas";
  * Authorize, or authorize and capture payments from Braintree
  * https://developers.braintreepayments.com/reference/request/transaction/sale/node
  * @param {String} transactionType - either authorize or capture
- * @param {Object} cardData - Object containing everything about the Credit card to be submitted
- * @param {Object} paymentData - Object containing everything about the transaction to be settled
+ * @param {Object} cardData - Object containing everything aboutUs the Credit card to be submitted
+ * @param {Object} paymentData - Object containing everything aboutUs the transaction to be settled
  * @return {Object} results - Object containing the results of the transaction
  */
 export function paymentSubmit(transactionType, cardData, paymentData) {
@@ -56,7 +56,7 @@ export function paymentSubmit(transactionType, cardData, paymentData) {
  * paymentCapture
  * Capture payments from Braintree
  * https://developers.braintreepayments.com/reference/request/transaction/submit-for-settlement/node
- * @param {Object} paymentMethod - Object containing everything about the transaction to be settled
+ * @param {Object} paymentMethod - Object containing everything aboutUs the transaction to be settled
  * @return {Object} results - Object containing the results of the transaction
  */
 export function paymentCapture(paymentMethod) {
@@ -90,7 +90,7 @@ export function paymentCapture(paymentMethod) {
  * createRefund
  * Refund BrainTree payment
  * https://developers.braintreepayments.com/reference/request/transaction/refund/node
- * @param {Object} paymentMethod - Object containing everything about the transaction to be settled
+ * @param {Object} paymentMethod - Object containing everything aboutUs the transaction to be settled
  * @param {Number} amount - Amount to be refunded if not the entire amount
  * @return {Object} results - Object containing the results of the transaction
  */
@@ -126,7 +126,7 @@ export function createRefund(paymentMethod, amount) {
  * listRefunds
  * List all refunds for a transaction
  * https://developers.braintreepayments.com/reference/request/transaction/find/node
- * @param {Object} paymentMethod - Object containing everything about the transaction to be settled
+ * @param {Object} paymentMethod - Object containing everything aboutUs the transaction to be settled
  * @return {Array} results - An array of refund objects for display in admin
  */
 export function listRefunds(paymentMethod) {

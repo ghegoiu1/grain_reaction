@@ -12,7 +12,7 @@ import { Reaction } from "/server/api";
  * @param {Object} value - the new data that's to be stored for the said
  * Package.
  * @since 1.5.1
- * @return {Object} - returns an object with info about the update operation.
+ * @return {Object} - returns an object with info aboutUs the update operation.
  */
 export function updatePackage(packageName, field, value) {
   check(packageName, String);

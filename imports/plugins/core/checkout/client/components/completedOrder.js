@@ -7,7 +7,7 @@ import CompletedOrderSummary from "./completedOrderSummary";
 import AddEmail from "./addEmail";
 
 /**
- * @summary Displays a summary/information about the order the user has just completed
+ * @summary Displays a summary/information aboutUs the order the user has just completed
  * @param {Object} props - React PropTypes
  * @property {Object} order - An object representing the order
  * @property {String} orderID - the unique identifier of the order

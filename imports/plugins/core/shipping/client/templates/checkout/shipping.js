@@ -31,7 +31,7 @@ function uniqObjects(objs) {
 /**
  * cartShippingQuotes - returns a list of all the shipping costs/quotations
  * of each available shipping carrier like UPS, Fedex etc.
- * @param {Object} currentCart - The current cart that's about
+ * @param {Object} currentCart - The current cart that's aboutUs
  * to be checked out.
  * @returns {Array} - an array of the quotations of multiple shipping
  * carriers.

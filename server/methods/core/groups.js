@@ -19,7 +19,7 @@ Meteor.methods({
    * @memberof Methods/Group
    * @summary Creates a new permission group for a shop
    * It creates permission group for a given shop with passed in roles
-   * @param {Object} groupData - info about group to create
+   * @param {Object} groupData - info aboutUs group to create
    * @param {String} groupData.name - name of the group to be created
    * @param {String} groupData.description - Optional description of the group to be created
    * @param {Array} groupData.permissions - permissions to assign to the group being created

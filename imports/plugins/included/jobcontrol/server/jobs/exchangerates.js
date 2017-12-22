@@ -77,7 +77,7 @@ export default function () {
         // we should always return "completed" job here, because errors are fine
         // result for this task, so that's why we show message if error happens
         // and return job.done();
-        // you can read more about job.repeat() here:
+        // you can read more aboutUs job.repeat() here:
         // https://github.com/vsivsi/meteor-job-collection#set-how-many-times-this
         // -job-will-be-automatically-re-run-by-the-job-collection
         const success = "Latest exchange rates were fetched successfully.";

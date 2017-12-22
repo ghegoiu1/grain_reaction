@@ -11,7 +11,7 @@ import { Random } from "meteor/random";
 Accounts.loginWithAnonymous = function (anonymous, callback) {
   // We need to be sure that every user will work inside a session. Sometimes
   // session could be destroyed, for example, by clearing browser's cache. In
-  // that case we need to take care about creating new session before new
+  // that case we need to take care aboutUs creating new session before new
   // user or anonymous will be created/logged in.
   // The problem here - looks like where is no way to track localStorage:
   // `amplify.store("Reaction.session")` itself. That's why we need to use

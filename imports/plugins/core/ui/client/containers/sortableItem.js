@@ -13,7 +13,7 @@ const cardSource = {
 /**
  * Specifies the props to inject into your component.
  * @param {DragSourceConnector} connect An onject containing functions to assign roles to a component's DOM nodes
- * @param {DragSourceMonitor} monitor An object containing functions that return information about drag state
+ * @param {DragSourceMonitor} monitor An object containing functions that return information aboutUs drag state
  * @return {Object} Props for drag source
  */
 function collectDropSource(connect, monitor) {

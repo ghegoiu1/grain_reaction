@@ -79,7 +79,7 @@ export function paymentCapture(paymentMethod) {
 /**
  * createRefund
  * Refund PayPal PayFlow payment
- * @param {Object} paymentMethod - Object containing everything about the transaction to be settled
+ * @param {Object} paymentMethod - Object containing everything aboutUs the transaction to be settled
  * @param {Number} amount - Amount to be refunded if not the entire amount
  * @return {Object} results - Object containing the results of the transaction
  */
@@ -115,7 +115,7 @@ export function createRefund(paymentMethod, amount) {
  * listRefunds
  * List all refunds for a PayPal PayFlow transaction
  * https://developers.braintreepayments.com/reference/request/transaction/find/node
- * @param {Object} paymentMethod - Object containing everything about the transaction to be settled
+ * @param {Object} paymentMethod - Object containing everything aboutUs the transaction to be settled
  * @return {Array} results - An array of refund objects for display in admin
  */
 export function listRefunds(paymentMethod) {

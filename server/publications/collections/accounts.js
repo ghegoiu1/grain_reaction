@@ -106,7 +106,7 @@ Meteor.publish("UserProfile", function (profileUserId) {
   // 1 - registered user log in.
   // 2 - admin log in
   // 3 - admin want to get user data
-  // I'm not sure about the 3rd case, but we do not cover 2nd case here, because
+  // I'm not sure aboutUs the 3rd case, but we do not cover 2nd case here, because
   // we can see a situation when anonymous user still represented by
   // `profileUserId`, but admin user already could be found by `this.userId`
   // In that case what we should do here?

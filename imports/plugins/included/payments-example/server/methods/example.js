@@ -108,7 +108,7 @@ Meteor.methods({
 
   /**
    * Capture a Charge
-   * @param {Object} paymentData Object containing data about the transaction to capture
+   * @param {Object} paymentData Object containing data aboutUs the transaction to capture
    * @return {Object} results normalized
    */
   "example/payment/capture": function (paymentData) {

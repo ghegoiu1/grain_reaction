@@ -29,7 +29,7 @@ function quantityProcessing(product, variant, itemQty = 1) {
     }: inventoryQuantity lower then minimum order`);
   }
 
-  // TODO: think about #152 implementation here
+  // TODO: think aboutUs #152 implementation here
   switch (product.type) {
     case "not-in-stock":
       break;

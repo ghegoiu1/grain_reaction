@@ -63,7 +63,7 @@ export function registerInventory(product) {
           createdAt: new Date,
           updatedAt: new Date,
           workflow: { // we add this line because `batchInsert` doesn't know
-            status: "new" // about SimpleSchema, so `defaultValue` will not
+            status: "new" // aboutUs SimpleSchema, so `defaultValue` will not
           }
         });
         i++;

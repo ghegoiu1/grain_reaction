@@ -357,7 +357,7 @@ export const methods = {
    * methods for getting shipping methods failed in the most recent
    * query of Shippo's API.
    * @return {Array} errorDetailsAndRetryInfo - Details of any error that
-   * occurred while querying Shippo's API, and info about this package so
+   * occurred while querying Shippo's API, and info aboutUs this package so
    * as to know if this specific query is to be retried.
    * @return {Array} rates - The rates of the enabled and available
    * Shippo carriers, and an empty array.

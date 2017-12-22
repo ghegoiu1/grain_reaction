@@ -35,7 +35,7 @@ utils.getStripeApi = function (paymentPackageId) {
 
 /**
  * @summary Capture the results of a previous charge
- * @param {object} paymentMethod - Object containing info about the previous transaction
+ * @param {object} paymentMethod - Object containing info aboutUs the previous transaction
  * @returns {object} Object indicating the result, saved = true means success
  */
 function stripeCaptureCharge(paymentMethod) {

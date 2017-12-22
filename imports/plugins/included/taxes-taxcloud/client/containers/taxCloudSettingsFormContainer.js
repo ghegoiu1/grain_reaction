@@ -16,7 +16,7 @@ const handlers = {
     * @method
     * @summary event handler for when new TaxCloud settings are submitted.
     * @param {Object} event - event info.
-    * @param {Object} changedInfo - info about the new TaxCloud settings.
+    * @param {Object} changedInfo - info aboutUs the new TaxCloud settings.
     * @param {String} targetField - where to save the new settings in the TaxCloud Package.
     * @since 1.5.2
     * @return {null} - returns nothing
