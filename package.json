@@ -112,6 +112,7 @@
     "stripe": "^5.3.0",
     "sweetalert2": "^7.0.5",
     "swiper": "^4.0.6",
+    "templates": "^1.2.9",
     "tether-drop": "^1.4.2",
     "tether-tooltip": "^1.2.0",
     "transliteration": "github:reactioncommerce/transliteration",
